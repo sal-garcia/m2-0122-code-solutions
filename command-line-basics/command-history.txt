@@ -1,0 +1,283 @@
+    1  git config --global user.name "sal garcia"
+    2  git config --global user.email "salgarcia940@gmail.com"
+    3  git config --global --list
+    4  npm ci
+    5  cd repos
+    6  cd m2-0122-code-solutions/
+    7  npm ci
+    8  git branch javascript-custom-methods
+    9  git switch javascript-custom-methods 
+   10  git add javascript-custom-methods/
+   11  git commit -m 'javascript custom methods completed'
+   12  git push origin javascript-custom-methods 
+   13  git switch master 
+   14  git branch javascript-this
+   15  git switch javascript-this 
+   16  git add javascript-this/
+   17  git commit -m 'javascript this completed'
+   18  git push origin javascript-this 
+   19  git switch master 
+   20  git pull origin master 
+   21  git branch javascript-prototypes
+   22  git switch javascript-prototypes 
+   23  git add javascript-prototypes/
+   24  git commit -m 'javascript prototypes completed'
+   25  git push origin javascript-prototypes 
+   26  git switch master 
+   27  git pull origin master 
+   28  git branch javascript-constructors
+   29  git switch javascript-constructors 
+   30  git add javascript-constructors/
+   31  git commit -m 'javascript constructors completed'
+   32  git push origin javascript-constructors 
+   33  git switch master 
+   34  git pull origin master 
+   35  cd repos
+   36  cd m2-0122-code-solutions/
+   37  git switch javascript-constructors 
+   38  git add javascript-constructors/
+   39  git commit -m'some notes i added'
+   40  git push origin master
+   41  git push origin javascript-constructors/
+   42  git switch master 
+   43  git switch javascript-bank/
+   44  git switch javascript-bank
+   45  git branch javascript-bank
+   46  git switch javascript-bank 
+   47  git add javascript-bank
+   48  git commit -m 'javascript bank completed'
+   49  git push origin javascript-bank 
+   50  git switch master 
+   51  git branch javascript-timers
+   52  git switch javascript-timers 
+   53  git add javascript-timers/
+   54  git commit -m 'javascript timers completed'
+   55  git push origin javascript-timers 
+   56  git switch master 
+   57  git pull origin master 
+   58  git branch javascript-carousel
+   59  git switch javascript-carousel 
+   60  cd repos
+   61  git clone git@github.com:salgarcia666/driving-game.git
+   62  cd driving-game/
+   63  npm ci
+   64  git pull origin master
+   65  git branch issue-1-see-car
+   66  git switch issue-1-see-car 
+   67  git add .
+   68  git commit -m' html and css of issue one finished'
+   69  git push origin issue-1-see-car 
+   70  git switch master 
+   71  git pull origin master 
+   72  cd repos
+   73  m2-0122-code-solutions/
+   74  cd m2-0122-code-solutions/
+   75  HTTPie Get https://example.com
+   76  https://learning-fuze.github.io/example/
+   77  https://example.com
+   78  GET https://example.com
+   79  GET https://learning-fuze.github.io/example/
+   80  https httpie://example.com
+   81  http http://www.example.com
+   82  http --verbose http://www.example.com
+   83  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+   84  git branch http-messages
+   85  git switch http-messages 
+   86  https://learning-fuze.github.io/example/
+   87  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+   88  http --body GET https://example.com > http-messages/index.html
+   89  git add http-messages/
+   90  git commit -m 'httpp messages completed'
+   91  git push origin http-messages 
+   92  http http://www.example.com
+   93  http --verbose http://www.example.com
+   94  git switch master 
+   95  git status 
+   96  git switch javascript-bank 
+   97  git switch javascript-timers 
+   98  git pull origin master 
+   99  git status 
+  100  git branch javascript-ajax
+  101  git switch javascript-ajax 
+  102  cd repos
+  103  cd driving-game/
+  104  git switch issue-1-see-car 
+  105  git add .
+  106  git commit -m 'i got carried away coding and forgot to follow the workflow i ended up doing it all in one branch...'
+  107  git push origin issue-1-see-car 
+  108  cd repos
+  109  cd m2-0122-code-solutions/
+  110  git add javascript-ajax/
+  111  git commit -m 'javascript ajax completed'
+  112  git push origin javascript-ajax 
+  113  git switch master 
+  114  git reset --hard
+  115  git switch javascript-bank 
+  116  git add javascript-bank/
+  117  git commit -m 'i made some changes but undid them, im pushing the branch incase there are differences in the local and github'
+  118  git push origin javascript-bank 
+  119  git switch master 
+  120  git status 
+  121  cd repos
+  122  cd m2-0122-code-solutions/
+  123  git pull origin master 
+  124  http http:// www.https://apidocs.cheapshark.com/
+  125  http www.https://apidocs.cheapshark.com/
+  126  HTTPie https://apidocs.cheapshark.com/
+  127  https://learning-fuze.github.io/example/
+  128  http https://learning-fuze.github.io/example/
+  129  http https://www.cheapshark.com/redirect?dealID={id}
+  130  http https://www.cheapshark.com/api/1.0/deals?storeID=1&upperPrice=15
+  131  http --verbose https://www.cheapshark.com/api/1.0/deals?storeID=1&upperPrice=15
+  132  ie --verbose https://example.com
+  133  http --verbose https://learning-fuze.github.io/example/
+  134  http https://www.cheapshark.com/api/1.0/deals?storeID=1&upperPrice=15
+  135  http https://www.cheapshark.com/api/1.0/alerts?action=set&email=someone@example.org&gameID=34&price=14.99
+  136  http https://www.cheapshark.com/api/1.0/stores
+  137  cd repos
+  138  git clone git@github.com:salgarcia666/ajax-project-updated.git
+  139  cd ajax-project-updated/
+  140  npm ci
+  141  git pull origin master 
+  142  git branch issue-1-user-can-view-home-page
+  143  git switch issue-1-user-can-view-home-page 
+  144  git add .
+  145  git commit -m 'made html skeleton for home page with css'
+  146  git push origin issue-1-user-can-view-home-page 
+  147  cd repos
+  148  cd ajax-project-updated/
+  149  git add .
+  150  git commit -m 'decorate the home page that displays the 5 cheapest games'
+  151  git add .
+  152  git commit -m 'decorate the home page to displays the 5 cheapest games'
+  153  git add .
+  154  git commit -m 'decorate the home page to displays the 5 cheapest games'
+  155  git add .
+  156  git commit -m 'made sure the click targets show a curson, and deleted commented code'
+  157  cd repos
+  158  cd ajax-project-updated/
+  159  git add .
+  160  git commit -m 'Confirm that the user interface looks natural on both mobile and desktop screens.'
+  161  git push origin issue-1-user-can-view-home-page 
+  162  git remote
+  163  cd repos
+  164  ls
+  165  cd m2-0122-code-solutions/
+  166  git remote  set-url git@github.com:sal-garcia/m2-0122-code-solutions.git
+  167  git remote set-url origin git@github.com:sal-garcia/m2-0122-code-solutions.git
+  168  git remote -v
+  169  cd repos
+  170  cd ajax-project-updated/
+  171  git remote set-url origin git@github.com:sal-garcia/ajax-project-updated.git
+  172  git remote -v
+  173  cd repos
+  174  cd driving-game/
+  175  git remote set-url origin git@github.com:sal-garcia/driving-game.git
+  176  git remote -v
+  177  cd repos
+  178  cd code-journal-updated/
+  179  git remote set-url origin git@github.com:sal-garcia/code-journal-updated.git
+  180  git remote -v
+  181  cd repos
+  182  cd ajax-project-updated/
+  183  git add .
+  184  git commit -m 'used rem instead of px for small stuff, and swapped innerHTHML with DOM creations'
+  185  git push origin issue-1-user-can-view-home-page 
+  186  git pull origin master 
+  187  cd repos
+  188  cd ajax-project-updated/
+  189  cd repos
+  190  cd ajax-project-updated/
+  191  git add .
+  192  git commit -m 'commets added/deleted'
+  193  git push origin issue-1-user-can-view-home-page 
+  194  git switch master 
+  195  git pull origin master 
+  196  git branch issue-2-user-can-compare-prices
+  197  git switch issue-2-user-can-compare-prices 
+  198  cd repos
+  199  cd m2-0122-code-solutions/
+  200  git status 
+  201  git switch es6-destructuring/
+  202  git switch es6-destructuring
+  203  git branch es6-destructuring
+  204  git switch es6-destructuring
+  205  git add es6-destructuring
+  206  git commit -m 'es6 destructuring completed'
+  207  git push origin es6-destructuring 
+  208  git switch master 
+  209  git switch es6-template-literals 
+  210  git add es6-template-literals/
+  211  git commit -m 'fixed number of spaces'
+  212  git push origin es6-template-literals 
+  213  git switch master 
+  214  git pull origin master 
+  215  git branch command-line-basics
+  216  git switch command-line-basics 
+  217  pwd
+  218  git switch master 
+  219  cd command-line-basics
+  220  git switch command-line-basics 
+  221  man man
+  222  man cat
+  223  cat laziness.txt
+  224  cat impatience.txt
+  225  man cat
+  226  cat - laziness.txt
+  227  cd repos
+  228  cd m2-0122-code-solutions/
+  229  cat laziness.txt
+  230  cd command-line-basics
+  231  cat laziness.txt
+  232  cat impatience.txt 
+  233  cat hubris.txt 
+  234  man cat
+  235  cat laziness.txt impatience.txt hubris.txt 
+  236  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  237  cat three-virtues.txt 
+  238  ls
+  239  man ls
+  240  ls -a
+  241  ls -F
+  242  man ls
+  243  ls -aF lfz-staff > lfz-staff/contents.txt
+  244  cat lfz-staff/contents.txt 
+  245  man pwd
+  246  pwd > i-was-here.txt
+  247  ls
+  248  cat i-was-here.txt 
+  249  man echo
+  250  echo 'Hello, World!'
+  251  echo 'Hello, World!' > hello.txt
+  252  ls
+  253  cat hello.txt 
+  254  man touch
+  255  touch  tag-youre-it.txt
+  256  touch boop.txt > snoot/
+  257  ls snoot/
+  258  touch snoot/ boop.txt
+  259  ls snoot/
+  260  touch snoot/boop.txt
+  261  ls snoot/
+  262  man mkdir
+  263  mkdir parent
+  264  ls
+  265  mkdir -p parent/child/grandchild
+  266  touch .gitkeep parent/child/grandchild/
+  267  ls -a
+  268  man mv
+  269  mv pokiemans/ pokemon
+  270  ls
+  271  man rm
+  272  rm lol.txt 
+  273  ls
+  274  rm -r kill-me/
+  275  ls
+  276  man cp
+  277  cp and-then.txt no-and-then.txt
+  278  ls
+  279  cat and-then.txt 
+  280  cat no-and-then.txt 
+  281  man history 
+  282  history 
+  283  history > command-history.txt
