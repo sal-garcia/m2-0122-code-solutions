@@ -1,0 +1,9 @@
+{
+  "nextId": 7,
+  "notes": {
+    "1": "The event loop is how a JavaScript runtime pushes asynchronous callbacks onto the stack once the stack is cleared.",
+    "4": "A closure is formed when a function retains access to variables in its lexical scope.",
+    "5": "test",
+    "6": "some string"
+  }
+}
