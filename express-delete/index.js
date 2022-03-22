@@ -31,17 +31,12 @@ app.get('/api/grades', function (req, res) {
 });
 
 app.delete('/api/grades/:id', function (req, res) {
-  const arr = [];
   for (const properties in grades) {
     if (properties === req.params.id) {
       delete grades[properties];
-      return res.sendStatus(204);
-    } else {
-      arr.push(grades[properties]);
     }
   }
-  res.json(arr);
-
+  return res.sendStatus(204);
 });
 
 app.listen(3000);
