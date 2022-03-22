@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-const nextId = 1;
+let nextId = 1;
 const grades = {};
 
 const expressJson = express.json();
@@ -20,7 +20,7 @@ app.post('/api/grades', function (req, res) {
     name: req.body.name,
     course: req.body.course,
     score: req.body.score,
-    id: nextId
+    id: nextId++
   };
 
   res.status(201).json(grades[nextId]);
