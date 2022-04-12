@@ -16,7 +16,7 @@ app.get('/api/notes', (req, res) => { // receive array containing objects of dat
 
 // getById
 app.get('/api/notes/:id', (req, res) => { // if client uses an id that is not positive
-  if (req.params.id < 0) {
+  if (req.params.id < 0 && Number.isInteger(req.params.id) === true) {
     const response400 = {
       error: 'id must be a positive integer'
     };
