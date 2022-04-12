@@ -68,7 +68,7 @@ app.post('/api/notes', (req, res) => {
 // delete
 app.delete('/api/notes/:id', (req, res) => {
 
-  if (req.params.id < 0) { // if the client does not specify an id that is valid/positive
+  if (req.params.id < 0 && Number.isInteger(req.params.id) === true) { // if the client does not specify an id that is valid/positive
     const errMessage = {
       error: 'id must be a positive integer'
     };
@@ -98,7 +98,7 @@ app.delete('/api/notes/:id', (req, res) => {
 
 app.put('/api/notes/:id', (req, res) => {
 
-  if (req.params.id < 0) { // if the client does not specify a positive/valid id
+  if (req.params.id < 0 && Number.isInteger(req.params.id) === true) { // if the client does not specify a positive/valid id
     const errMsg = {
       error: 'id must be a positive integer'
     };
